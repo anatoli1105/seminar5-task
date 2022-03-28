@@ -26,7 +26,7 @@ int Sum(int[] number)
     int sum = 0; 
     for(int i = 0;i < lenght;i++)
     {
-        if(i%2 == 0)
+        if(i%2 != 0)
         {
             sum += number[i];
         }
