@@ -30,6 +30,10 @@ void Sum(int[] number)
             sum = number[i] + number[lenght - i - 1];
              Console.Write(sum + " ,");
     }
+    if(number.Length%2 == 1)
+        {
+            Console.Write(number[lenght/2]);
+        }
 }
 Console.Write("массив заполненный случайными числами -> ");
 //Rand(lenght);
