@@ -37,4 +37,4 @@ Console.Write("массив заполненный случайными числ
 //Rand(lenght);
 PrintArr(array);
 Console.WriteLine();
-Console.WriteLine($"сумму элементов, стоящих на чётных позициях-> {Sum(array)}");
+Console.WriteLine($"сумму элементов, стоящих на не чётных позициях-> {Sum(array)}");
